@@ -10,7 +10,12 @@
             color:style.$text_color!important;
             
          }      
-      }  
+      } .login{
+         transition:.3s linear;
+         &:hover{
+            background-color:black!important;
+         }
+      } 
       // .nav-link.active{
       //    border-bottom:2px solid rgb(11, 67, 67);
       //     display:inline-flex
