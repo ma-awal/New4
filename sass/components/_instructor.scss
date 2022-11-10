@@ -1,0 +1,25 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+.expart{
+   .card{
+       &:hover .image img{
+         transform: scale(1.1);
+       }
+       img{
+         transition: style.$transition;
+        
+       }
+       .image{
+         overflow: hidden;
+       }
+       .link-icon{
+         a{
+            transition:style.$transition;
+            &:hover{
+               transform: scale(1.1);
+               color:black!important;
+            };
+         }
+       }
+   }
+}

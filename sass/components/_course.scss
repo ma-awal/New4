@@ -1,0 +1,17 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+
+.course{
+   .card{
+      transition:style.$transition;
+      overflow: hidden;
+      &:hover  img{
+         transform: scale(1.1)
+          
+      };
+      img{
+         transition: style.$transition;
+      }
+
+   }
+}

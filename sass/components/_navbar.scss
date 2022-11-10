@@ -1,0 +1,25 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+.navbar{  
+   .navbar-brand{
+      color:style.$text_color
+   }
+   .nav-item{
+      .nav-link{
+         &:hover{
+            color:style.$text_color!important;
+            
+         }      
+      }  
+      // .nav-link.active{
+      //    border-bottom:2px solid rgb(11, 67, 67);
+      //     display:inline-flex
+      // } 
+   }
+   .btn{ 
+      @include set.btn-style;
+      width: 8rem;
+      height: 100%!important;
+    
+    }
+   }

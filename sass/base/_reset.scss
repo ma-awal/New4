@@ -1,0 +1,31 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style-type: none;
+    
+}
+html{
+   font-size: 100%;
+   overflow-x: hidden;;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2 ,h3{
+   text-transform: capitalize;
+   margin-bottom: 2rem;
+   
+}
+section{
+   overflow: hidden;
+}
+@media (max-width:1200px) {
+   html{
+      font-size: 62%;
+   }
+}
+

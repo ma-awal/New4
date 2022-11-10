@@ -1,0 +1,40 @@
+
+@use 'variable'as style;
+@use 'mixin' as set;
+
+.footer{background-color:style.$dark_color;
+   .quick-link{
+   li{
+      a{
+         text-decoration: none;
+         margin-left: 1rem;
+         color:white;
+         &:hover{
+            letter-spacing: 2px;
+            transition:style.$transition;
+         };
+      }
+   }
+   }
+   .adress-link{text-align: justify;
+   a{
+      border-radius: 50%;
+      padding: .5rem;
+      text-decoration:none;
+      background:transparent;
+      color:white;
+      border:1px solid white;
+         margin:1rem .5rem;
+         transition:style.$transition;
+         &:hover{
+         background-color: white;
+         color:black;
+         }
+   }
+   }
+   .input-box{
+   input{
+      border-radius: 0;;
+   }
+   }
+   }

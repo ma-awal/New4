@@ -1,0 +1,25 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+
+.card{
+   .box{ background-color: rgb(230, 248, 255);
+      transition:style.$transition;
+      i{
+         color:style.$text_color;
+         transition:style.$transition;
+      }
+      &:hover {
+         background-color:style.$text_color;
+         color:white;
+      }
+      
+      &:hover i{
+         color:white;
+      }
+      &:hover p{
+         color:white!important;
+      }
+      
+      
+   }
+}

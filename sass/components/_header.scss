@@ -1,0 +1,12 @@
+
+@use 'variable'as style;
+@use 'mixin' as set;
+.header{
+   h5{
+      color:style.$text_color;
+   }
+   .btn{
+      width: 12rem;
+      padding: 1.3rem;;
+   }
+}

@@ -1,0 +1,8 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+
+.contact{
+   .row{
+      row-gap: 2rem;
+   }
+}

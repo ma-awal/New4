@@ -1,0 +1,24 @@
+@use 'variable'as style;
+@use 'mixin' as set;
+
+.about-info{
+   .info-link{
+      li{
+         i{
+            margin-right: .5rem;
+            color: style.$text_color;
+         }
+         a{transition: style.$transition;
+            text-decoration: none;
+            color: #333;
+            &:hover{
+               letter-spacing: 2px;
+               
+            };
+         }
+      }
+   }
+   .btn{
+     @include set.btn-style
+   }
+}
