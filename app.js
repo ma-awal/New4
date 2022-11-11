@@ -1,7 +1,11 @@
 
 $(document).ready(function(){
+    $(this).scrollTop(0);
     new WOW().init();
 
+     
+      
+    
 $(window).scroll(()=>{
     if($(this).scrollTop()>300){
         $(".sticky-top").css('top','0px')
